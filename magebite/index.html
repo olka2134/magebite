@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__content">
+            <header class="layout__header">
+                <img class="logo" src="images/logo.png" alt="pineapple">
+
+                <nav class="nav">
+                    <a href="#about" class="nav__link">About</a>
+                    <a href="#how-it-works" class="nav__link">How it works</a>
+                    <a href="#contacts" class="nav__link">Contact</a>
+                </nav>
+            </header>
+            <main class="layout__body">
+                <div class="form-subscribe">
+                    <h1 class="form-subscribe__title">Subscribe to newsletter</h1>
+                    <p class="form-subscribe__desc">
+                        Subscribe to our newsletter and get 10% discount on pineapple glasses.
+                    </p>
+                    <div class="form-subscribe__control">
+                        <input class="form-subscribe__input" placeholder="      Type your email address here…">
+                        <button class="form-subscribe__submit"></button>
+                    </div>
+                </div>
+                <label class="container">I agree to terms of service
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </main>
+            <footer class="layout__header">
+                <div class="social-media">
+                    <ul class="social">
+                        <li class="social_item">
+                            <a class="social_link" href="#">
+                                <img class="site-logo_img"src="images/Facebook.png" alt="/">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="#">
+                                <img class="site-logo_img"src="images/Instagram.png" alt="/">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="#">
+                                <img class="site-logo_img"src="images/Twitter.png" alt="/">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a class="social_link" href="#">
+                                <img class="site-logo_img"src="images/Youtube.png" alt="/">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <div class="layout__image"></div>
+    </div>
+
+    <!--
+    <div class="layout">
+        <header class="layout__header">
+            <div class="site-header">
+                <div class="site-container">
+                    <div class="top-bar">
+                        <div class="site-header_logo">
+                            <a class="site-logo" href="/">
+                                <img class="site-logo_img"src="images_pineapple/logo_pineapple.png" alt="/">
+                            </a>
+
+                            <a class="site-menu_link1" href="#">About</a>
+                            <a class="site-menu_link2" href="#">How it works</a>
+                            <a class="site-menu_link3" href="#">Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <style>
+                    .top-bar {
+                    position: absolute;
+                    width: 480px;
+                    height: 40px;
+                    left: 100px;
+                    top: 100px;
+                }
+                    .site-menu_link1 {
+                    font-size:11px;
+                    display:inline-block;
+                    width:40%;
+                    margin:90px;
+                    padding:100;
+                    white-space: nowrap;
+                    color: #6A707B;
+                    text-decoration: none;
+                    }
+
+                    .site-menu_link2 {
+                    font-size:11px;
+                    display:inline-block;
+                    width:40%;
+                    margin:-50px;
+                    padding:100;
+                    white-space: nowrap;
+                    color: #6A707B;
+                    text-decoration: none;
+                    }
+
+                    .site-menu_link3 {
+                    font-size:11px;
+                    display:inline-block;
+                    width:40%;
+                    margin:100px;
+                    padding:100;
+                    white-space: nowrap;
+                    color: #6A707B;
+                    text-decoration: none;
+                    }
+
+                    .site-menu {
+                        display: flex;
+                    }
+
+                    .site-menu_item {
+                        margin: right;
+                    }
+
+                    .site-header_logo {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100px;
+                    }
+                </style>
+            </div>
+        </header>
+
+        <main class="layout__content">
+            <div class="container">
+                <h1>Subscribe to newsletter</h1>
+            </div>
+            <div class="container_h4">
+                <h4>Subscribe to our newsletter and get 10% discount on pineapple glasses.</h4>
+            </div>
+
+            <div class="input">
+               <button type="button">Type your email address here…
+            </button> 
+            </div>
+
+            <label class="checkmark">I agree to terms of service
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    
+            </label>
+            
+            <hr>
+
+            <style>
+                .container {
+                    position: absolute;
+                    width: 699px;
+                    height: 44px;
+                    left: 140px;
+                    top: 374px;
+
+                    font-family: Georgia;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 44px;
+                    color: #131821;
+                    margin-bottom: 40px;
+                }
+
+                .container_h4 {
+                    position: absolute;
+                    width: 350px;
+                    height: 56px;
+                    left: 140px;
+                    top: 433px;
+
+                    font-family: Arial;
+                    font-style: light;
+                    font-weight: lighter;
+                    font-size: 12px;
+                    line-height: 28px;
+                    color: #6A707B;
+                }
+
+                .checkmark {
+                    position: absolute;
+                    width: 659px;
+                    height: 28px;
+                    left: 140px;
+                    top: 662px;
+
+                    font-family: Arial;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11px;
+                    line-height: 28px;
+                    /* identical to box height, or 175% */
+
+
+                    color: #6A707B;
+
+                }
+            
+                .container input {
+                    position: absolute;
+                    width: 659px;
+                    height: 28px;
+                    left: 140px;
+                    top: 662px;
+
+                    font-family: Arial;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11px;
+                    line-height: 28px;
+                    /* identical to box height, or 175% */
+
+
+                    color: #6A707B;
+
+                    }
+            
+            .container:hover input ~ .checkmark {
+                background-color: #ccc;
+            }
+            
+            .container input:checked ~ .checkmark {
+                background-color: #2196F3;
+            }
+            
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+            
+            .container input:checked ~ .checkmark:after {
+                display: block;
+            }
+            
+            .container .checkmark:after {
+                left: 9px;
+                top: 5px;
+                width: 5px;
+                height: 10px;
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+
+            .input {
+                position: absolute;
+                width: 663px;
+                height: 70px;
+                left: 140px;
+                top: 539px;
+
+                background: #FFFFFF;
+                border: 1px solid #E3E3E4;
+                box-sizing: border-box;
+            }
+
+            .button {
+                position: absolute;
+                width: 227px;
+                height: 24px;
+                left: 144px;
+                top: 562px;
+
+                font-family: Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #6A707B;
+            }
+            </style>
+
+        </main>
+
+        <footer class="layout__footer">
+            <div class="container_footer">
+                <ul class="social">
+                    <li class="social_item">
+                        <a class="social_link" href="#">
+                            <img class="site logo_img"src="images_pineapple/Base.png" alt="/">
+                            <img class="site logo_img"src="images_pineapple/ic_facebook.png" alt="/">
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="#">
+                            <img class="site logo_img"src="images_pineapple/ic instagram.png" alt="/">
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="#">
+                            <img class="site logo_img"src="images_pineapple/ic_twitter.png" alt="/">
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="#">
+                            <img class="site logo_img"src="images_pineapple/ic youtube.png" alt="/">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    -->
+</body>
+</html>
