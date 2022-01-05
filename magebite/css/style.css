@@ -56,6 +56,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 224px;
+    /*overflow:hidden;*/
 }
 
 .form-subscribe__title {
